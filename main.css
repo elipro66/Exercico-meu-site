@@ -99,11 +99,11 @@ section p {
     text-decoration: none;
 }
 
-#contact .container {
+#feedbacks.container {
     display: block;
 }
 
-.contact-methods {
+.feedbacks {
     display: flex;
     justify-content: space-between;
 }
@@ -114,7 +114,20 @@ form button {
     display: block;
     width: 320px;
     margin-bottom: 8px;
+    margin-right: 80px;
     padding: 8px;
+}
+
+.endereco {
+    display: inline;
+    margin-right: 8px;
+    padding: 20px;
+}
+
+.redes-sociais {
+    margin-right: 8px;
+    padding: 20px;
+    display: inline;
 }
 
 form textarea {
@@ -127,19 +140,22 @@ section h3 {
 }
 
 form button {
-    background-color: #e0a015;;
+    background-color: #e0a015;
+    ;
     color: #ecf0f1;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color:#e0a015;;
+    background-color: #e0a015;
+    ;
 }
 
 input:focus,
 textarea:focus {
-    outline-color: #e0a015;;
+    outline-color: #e0a015;
+    ;
 }
 
 footer {
